@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+<!-- 获取用户信息方式 -->
+<!-- <button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取用户信息</button> -->
+<!-- 获取用户信息方式的展示 -->
+<open-data type="userAvatarUrl"></open-data>
+<!-- <open-data type="userNickName"></open-data>
+ -->
+<view wx:for="{{items}}">{{item.title}}{{item.desc}}</view>

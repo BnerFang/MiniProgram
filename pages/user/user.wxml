@@ -1,0 +1,4 @@
+<!--pages/user/user.wxml-->
+<view>我的页面</view>
+<button size="mini" bindtap="onClicke">按钮</button>
+<view>{{message}}</view>

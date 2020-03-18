@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/discover/discover",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "#ff5777",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabBar/checked_home.png",
+        "selectedIconPath": "assets/tabBar/home.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "assets/tabBar/checked_faxian.png",
+        "selectedIconPath": "assets/tabBar/faxian.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "assets/tabBar/checked_my.png",
+        "selectedIconPath": "assets/tabBar/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
